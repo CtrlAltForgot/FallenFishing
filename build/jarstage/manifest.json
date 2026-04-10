@@ -1,0 +1,27 @@
+{
+  "Group": "FFishing",
+  "Name": "FallenFishing",
+  "Version": "1.0",
+  "Description": "FallenFishing fishing mod.",
+  "Authors": [
+    {
+      "Name": "Bipolar"
+    },
+    {
+      "Name": "Mrbysco"
+    },
+    {
+      "Name": "ShyNieke"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {
+    "Hytale:EntityModule": "*",
+    "Zuxaw:RPGLeveling": "*"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.bipolar.ffishing.FallenFishing",
+  "IncludesAssetPack": true
+}

@@ -1,0 +1,19 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Tools/Fishing_Rod/FFishing_Fishing_Rod_Cast.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1,
+        "MaxPitch": 1,
+        "MinVolume": -2
+      },
+      "StartDelay": 0,
+      "Volume": 4.0
+    }
+  ],
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}

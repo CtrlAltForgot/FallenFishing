@@ -1,0 +1,53 @@
+$Common = "Common.ui";
+
+Group {
+  LayoutMode: Top;
+  Anchor: (Width: 700, Height: 74);
+
+  Group #RowWrap {
+    LayoutMode: Left;
+    Anchor: (Width: 700, Height: 66);
+
+    Group #RankBadge {
+      Anchor: (Width: 58, Height: 66);
+      Background: $Common.@InputBoxBackground;
+      LayoutMode: Center;
+
+      Label #Rank {
+        Style: (FontSize: 18, RenderBold: true, TextColor: #d9dde8, HorizontalAlignment: Center, VerticalAlignment: Center);
+        Anchor: (Width: 58, Height: 66);
+        Text: "#2";
+      }
+    }
+
+    Group { Anchor: (Width: 10, Height: 66); }
+
+    Group #Card {
+      LayoutMode: Left;
+      Anchor: (Width: 632, Height: 66);
+      Background: $Common.@InputBoxBackground;
+      Padding: (Left: 14, Right: 14, Top: 8, Bottom: 6);
+
+      ItemIcon #Icon { Anchor: (Width: 42, Height: 42); }
+      Group #Stats {
+        LayoutMode: Top;
+        Anchor: (Left: 12, Width: 550, Height: 48);
+        Group #Header {
+          LayoutMode: Left;
+          Anchor: (Width: 550, Height: 20);
+          Label #Name { Style: (FontSize: 17, RenderBold: true); Anchor: (Right: 8); Text: "Fish Name"; }
+          Label #Rarity { Style: (FontSize: 12, RenderBold: true, TextColor: #ffffff(0.90)); Text: "Common"; }
+        }
+        Group { Anchor: (Width: 1, Height: 5); }
+        Group #Details {
+          LayoutMode: Left;
+          Anchor: (Width: 550, Height: 18);
+          Label #Length { Style: (FontSize: 12, TextColor: #ffffff(0.85)); Anchor: (Right: 18); Text: "Length: 0.00 cm"; }
+          Label #Weight { Style: (FontSize: 12, TextColor: #ffffff(0.85)); Anchor: (Right: 18); Text: "Weight: 0.00 kg"; }
+          Label #CaughtBy { Style: (FontSize: 12, TextColor: #ffffff(0.78)); Anchor: (Right: 18); Text: "Caught By: Player"; }
+          Label #Date { Style: (FontSize: 12, TextColor: #ffffff(0.78)); Text: "Date: 2026-04-02 23:58"; }
+        }
+      }
+    }
+  }
+}

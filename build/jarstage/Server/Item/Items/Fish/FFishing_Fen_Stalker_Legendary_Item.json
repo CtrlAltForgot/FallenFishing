@@ -1,0 +1,53 @@
+{
+  "Parent": "Template_Fish_Item",
+  "Quality": "Legendary",
+  "TranslationProperties": {
+    "Name": "server.npcRoles.Fen_Stalker.name"
+  },
+  "Model": "NPC/Swimming_Beast/Fen_Stalker/Models/Model.blockymodel",
+  "Texture": "NPC/Swimming_Beast/Fen_Stalker/Models/Texture.png",
+  "Animation": "NPC/Swimming_Beast/Fen_Stalker/Animations/Swim/Swim.blockyanim",
+  "Icon": "Icons/ItemsGenerated/Fish_Fen_Stalker_Item.png",
+  "IconProperties": {
+    "Scale": 0.13,
+    "Rotation": [
+      22.5,
+      52,
+      22.5
+    ],
+    "Translation": [
+      4,
+      -30
+    ]
+  },
+  "InteractionVars": {
+    "SpawnNPC_Entity": {
+      "Interactions": [
+        {
+          "Parent": "SpawnNPC_Entity_Default",
+          "EntityId": "Fen_Stalker",
+          "SpawnOffset": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          },
+          "Effects": {
+            "WorldSoundEventId": "SFX_Water_MoveOut"
+          }
+        }
+      ]
+    }
+  },
+  "ItemEntity": {
+    "ParticleSystemId": "Drop_Legendary"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fish",
+      "Quantity": 1
+    },
+    {
+      "Id": "Fish_Legendary"
+    }
+  ]
+}

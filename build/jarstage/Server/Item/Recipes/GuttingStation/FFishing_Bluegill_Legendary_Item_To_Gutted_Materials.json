@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Bluegill_Legendary_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Food_Fish_Raw",
+    "Quantity": 3
+  },
+  "Output": [
+    {
+      "ItemId": "Food_Fish_Raw",
+      "Quantity": 3
+    }
+  ],
+  "OutputQuantity": 3,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Gutting_Station"
+    }
+  ],
+  "TimeSeconds": 5.0
+}

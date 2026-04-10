@@ -1,0 +1,73 @@
+$Common = "Common.ui";
+
+Group {
+  LayoutMode: Center;
+
+  Group #Panel {
+    Background: $Common.@InputBoxBackground;
+    Anchor: (Width: 1000, Height: 720);
+    LayoutMode: Top;
+    Padding: (Left: 24, Right: 24, Top: 20, Bottom: 24);
+
+    Group #HeaderBar {
+      Anchor: (Top: 2, Width: 952, Height: 88);
+      Background: $Common.@InputBoxBackground;
+      LayoutMode: Top;
+      Padding: (Left: 14, Right: 14, Top: 12, Bottom: 12);
+
+      Label #Title {
+        Style: (FontSize: 24, RenderBold: true);
+        Text: "Your Fishing Logbook";
+      }
+
+      Group { Anchor: (Width: 1, Height: 8); }
+
+      Label #Subtitle {
+        Style: (FontSize: 13, TextColor: #ffffff(0.82));
+        Text: "Your catch history, newest first.";
+      }
+    }
+
+    Group #Body {
+      Anchor: (Top: 8, Width: 952, Height: 588);
+      LayoutMode: Left;
+
+      Group #Sidebar {
+        Anchor: (Width: 180, Height: 588);
+        Background: $Common.@InputBoxBackground;
+        LayoutMode: Top;
+        Padding: (Left: 12, Right: 12, Top: 14, Bottom: 14);
+
+        $Common.@SmallSecondaryTextButton #LogbookTab {
+          Anchor: (Width: 156, Height: 34);
+          Text: "[ LOGBOOK ]";
+        }
+
+        Group { Anchor: (Width: 1, Height: 8); }
+
+        $Common.@SmallSecondaryTextButton #LeaderboardTab {
+          Anchor: (Width: 156, Height: 34);
+          Text: "LEADERBOARD";
+        }
+
+        Group { Anchor: (Width: 1, Height: 8); }
+
+        $Common.@SmallSecondaryTextButton #RecordsTab {
+          Anchor: (Width: 156, Height: 34);
+          Text: "RECORDS";
+        }
+      }
+
+      Group { Anchor: (Width: 14, Height: 588); }
+
+      Group #MainPanel {
+        Anchor: (Width: 758, Height: 588);
+        Background: $Common.@InputBoxBackground;
+        LayoutMode: TopScrolling;
+        ScrollbarStyle: $Common.@DefaultScrollbarStyle;
+        Padding: (Left: 16, Right: 16, Top: 16, Bottom: 16);
+
+      }
+    }
+  }
+}

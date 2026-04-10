@@ -1,0 +1,83 @@
+{
+  "TranslationProperties": {
+    "Name": "items.FFishing_Fishing_Rod.name",
+    "Description": "Fishing Rod"
+  },
+  "Icon": "Icons/ItemsGenerated/FFishing_Fishing_Rod.png",
+  "Model": "Items/Tools/Fishing_Rod/FishingRod_Default.blockymodel",
+  "Texture": "Items/Tools/Fishing_Rod/FishingRod_Default_Texture.png",
+  "Quality": "Common",
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 1,
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "Family": [
+      "Fishing_Rod"
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Survival"
+        ]
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      57,
+      62,
+      22.5
+    ],
+    "Translation": [
+      -31,
+      -34
+    ]
+  },
+  "Set": "",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "FFishingFish"
+        }
+      ]
+    }
+  },
+  "Id": "FFishing_Fishing_Rod",
+  "ModelProperties": {
+    "Rotation": [
+      45,
+      0,
+      0
+    ]
+  },
+  "PlayerAnimationsId": "Sword",
+  "UsePlayerAnimations": true,
+  "ItemAnimationId": "SwingDownStrong"
+}

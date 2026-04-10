@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Jellyfish_Red_Rare_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Food_Fish_Raw",
+    "Quantity": 2
+  },
+  "Output": [
+    {
+      "ItemId": "Food_Fish_Raw",
+      "Quantity": 2
+    }
+  ],
+  "OutputQuantity": 2,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Gutting_Station"
+    }
+  ],
+  "TimeSeconds": 3.0
+}

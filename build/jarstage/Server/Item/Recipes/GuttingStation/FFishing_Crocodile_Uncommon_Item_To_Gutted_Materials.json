@@ -1,0 +1,30 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Crocodile_Uncommon_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Food_Fish_Raw",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Food_Fish_Raw",
+      "Quantity": 1
+    },
+    {
+      "ItemId": "Ingredient_Hide_Scaled",
+      "Quantity": 2
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Gutting_Station"
+    }
+  ],
+  "TimeSeconds": 2.0
+}

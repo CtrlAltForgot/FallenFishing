@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Pufferfish_Uncommon_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "FFishing_Pufferfish_Uncommon_Dried_Item",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "FFishing_Pufferfish_Uncommon_Dried_Item",
+      "Quantity": 1
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Drying_Rack"
+    }
+  ],
+  "TimeSeconds": 2.0
+}

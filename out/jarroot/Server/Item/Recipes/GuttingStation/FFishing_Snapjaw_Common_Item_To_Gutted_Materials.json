@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Snapjaw_Common_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Food_Fish_Raw",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "Food_Fish_Raw",
+      "Quantity": 1
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Gutting_Station"
+    }
+  ],
+  "TimeSeconds": 1.0
+}

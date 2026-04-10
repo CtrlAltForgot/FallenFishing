@@ -1,0 +1,5 @@
+FFishing_Fishing_Rod.name = Fishing Rod
+FFishing_Fishing_Rod_Waiting.name = Fishing Rod
+FFishing_Gutting_Station.name = Gutting Station
+FFishing_Gutting_Station.description = A rough fish-cleaning bench. Craft it at a workbench and place it in the world.
+benchCategories.ffishing.all = All

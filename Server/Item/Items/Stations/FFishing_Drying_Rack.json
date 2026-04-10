@@ -1,0 +1,118 @@
+{
+  "TranslationProperties": {
+    "Name": "items.FFishing_Drying_Rack.name",
+    "Description": "items.FFishing_Drying_Rack.description"
+  },
+  "Id": "FFishing_Drying_Rack",
+  "Recipe": {
+    "TimeSeconds": 3.0,
+    "Input": [
+      {
+        "Quantity": 6,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "Quantity": 3,
+        "ResourceTypeId": "Rock_Stone"
+      },
+      {
+        "ItemId": "Food_Fish_Raw",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench",
+        "Type": "Crafting"
+      }
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/FFishing_Drying_Rack.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "Blocks/Bench/FFishing_Drying_Rack.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Bench/FFishing_Drying_Rack.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Bench_Workbench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Processing",
+      "LocalOpenSoundEventId": "SFX_Workbench_Open",
+      "LocalCloseSoundEventId": "SFX_Workbench_Close",
+      "CompletedSoundEventId": "SFX_Workbench_Craft",
+      "FailedSoundEventId": "SFX_Furnace_Bench_Processing_Failed",
+      "Id": "FFishing_Drying_Rack",
+      "DescriptiveLabel": "Fish Drying Rack",
+      "Input": [
+        {
+          "ResourceTypeId": "Fish",
+          "FilterValidIngredients": true
+        }
+      ],
+      "OutputSlotsCount": 1,
+      "AllowNoInputProcessing": false
+    },
+    "BlockEntity": {
+      "Components": {
+        "BenchBlock": {},
+        "ProcessingBenchBlock": {}
+      }
+    },
+    "State": {
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Bench/FFishing_Drying_Rack_Crafting.blockyanim"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "FFishing_Drying_Rack"
+      }
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#8a6a42",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.36,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11.4,
+      -18
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "Blocks/Bench/FFishing_Drying_Rack.blockymodel"
+}

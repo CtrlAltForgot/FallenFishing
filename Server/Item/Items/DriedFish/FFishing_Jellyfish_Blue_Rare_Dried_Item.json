@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "items.FFishing_Jellyfish_Blue_Rare_Dried_Item.name",
+    "Description": "items.FFishing_Jellyfish_Blue_Rare_Dried_Item.description"
+  },
+  "Id": "FFishing_Jellyfish_Blue_Rare_Dried_Item",
+  "MaxStack": 25,
+  "Icon": "Icons/ItemsGenerated/Fish_Jellyfish_Blue_Item.png",
+  "Categories": [
+    "Fish"
+  ],
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Model": "NPC/Swimming_Wildlife/Jellyfish/Models/Model.blockymodel",
+  "Texture": "NPC/Swimming_Wildlife/Jellyfish/Models/Model_Textures/Blue.png",
+  "Scale": 0.72,
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Semitransparent",
+    "CustomModel": "NPC/Swimming_Wildlife/Jellyfish/Models/Model.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Swimming_Wildlife/Jellyfish/Models/Model_Textures/Blue.png",
+        "Weight": 1
+      }
+    ],
+    "CustomModelScale": 0.54,
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches",
+        "ItemId": "FFishing_Jellyfish_Blue_Rare_Dried_Item"
+      }
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "South": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "East": [
+        {
+          "FaceType": "Full"
+        }
+      ],
+      "West": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockParticleSetId": "Wood",
+    "ParticleColor": "#8a6a42",
+    "BlockSoundSetId": "Wood",
+    "SupportsRequiredFor": "Any"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Lobster_Rare_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "FFishing_Lobster_Rare_Dried_Item",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "FFishing_Lobster_Rare_Dried_Item",
+      "Quantity": 1
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Drying_Rack"
+    }
+  ],
+  "TimeSeconds": 3.0
+}

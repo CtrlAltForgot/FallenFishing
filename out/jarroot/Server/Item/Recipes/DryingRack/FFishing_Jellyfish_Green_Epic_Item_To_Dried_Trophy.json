@@ -1,0 +1,26 @@
+{
+  "Input": [
+    {
+      "ItemId": "FFishing_Jellyfish_Green_Epic_Item",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "FFishing_Jellyfish_Green_Epic_Dried_Item",
+    "Quantity": 1
+  },
+  "Output": [
+    {
+      "ItemId": "FFishing_Jellyfish_Green_Epic_Dried_Item",
+      "Quantity": 1
+    }
+  ],
+  "OutputQuantity": 1,
+  "BenchRequirement": [
+    {
+      "Type": "Processing",
+      "Id": "FFishing_Drying_Rack"
+    }
+  ],
+  "TimeSeconds": 4.0
+}

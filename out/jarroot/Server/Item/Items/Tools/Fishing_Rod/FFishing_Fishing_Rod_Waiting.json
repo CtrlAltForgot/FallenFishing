@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "items.FFishing_Fishing_Rod_Waiting.name",
+    "Description": "Fishing Rod"
+  },
+  "Icon": "Icons/ItemsGenerated/FFishing_Fishing_Rod.png",
+  "Model": "Items/Tools/Fishing_Rod/FishingRod_Waiting.blockymodel",
+  "Texture": "Items/Tools/Fishing_Rod/FishingRod_Waiting_Texture.png",
+  "Quality": "Common",
+  "MaxStack": 1,
+  "ItemLevel": 3,
+  "MaxDurability": 250,
+  "DurabilityLossOnHit": 1,
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Tags": {
+    "Type": [
+      "Tool"
+    ],
+    "Family": [
+      "Fishing_Rod"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.35,
+    "Rotation": [
+      57,
+      62,
+      22.5
+    ],
+    "Translation": [
+      -31,
+      -34
+    ]
+  },
+  "Set": "",
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "FFishingFish"
+        }
+      ]
+    }
+  },
+  "Id": "FFishing_Fishing_Rod_Waiting",
+  "ModelProperties": {
+    "Rotation": [
+      45,
+      0,
+      0
+    ]
+  },
+  "PlayerAnimationsId": "Sword",
+  "UsePlayerAnimations": true,
+  "ItemAnimationId": "SwingDownStrong"
+}
